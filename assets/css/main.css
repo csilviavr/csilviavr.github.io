@@ -225,18 +225,6 @@ h1 > a:hover > .dot-head {
     color: #0071a1;
 }
 
-.social .icon-stackoverflow:before {
-    background: -webkit-linear-gradient(#f90, #86868a);
-    color: #86868a;
-    margin-right: 0;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.social .icon-foursquare:before {
-    color: #00aeef;
-}
-
 .social .icon-gmail:before {
     color: #e93e30;
     font-size: .9em;
