@@ -1,41 +1,60 @@
-<!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-{% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <meta http-equiv="refresh" content="0;url=http://jnrbsn.github.io/browser-upgrade/">
+    <style>body{display:none;}</style>
     <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
-        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+    <title>{{ site.title }}{% if page.title != 'index' %} / {{ page.title }}{% endif %}</title>
+    <meta name="description" content="{{ page.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic,600italic,700italic">
+    <link rel="stylesheet" href="/vendor/fontello/css/fontello.css?rev={{ site.github.build_revision }}">
+    <link rel="stylesheet" href="/vendor/fontello/css/animation.css?rev={{ site.github.build_revision }}">
+    <link rel="stylesheet" href="/assets/css/main.css?rev={{ site.github.build_revision }}">
+</head>
+<body>
 
-        <ul>
-          {% if site.show_downloads %}
-            <li class="download"><a class="buttons" href="{{ site.github.zip_url }}">Download ZIP</a></li>
-            <li class="download"><a class="buttons" href="{{ site.github.tar_url }}">Download TAR</a></li>
-          {% endif %}
-          <li><a class="buttons github" href="{{ site.github.repository_url }}">View On GitHub</a></li>
-        </ul>
+    <div class="container">
 
-        {% if site.github.is_project_page %}
-          <p class="header">This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
+        <header><h1><a href="/">jnrbsn<i class="dot-head">.</i>com</a></h1></header>
 
-        {% if site.github.is_user_page %}
-          <ul>
-            <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
-          </ul>
-        {% endif %}
-      </header>
+        <div class="navigation">
+            <ul>
+                <li><a href="/"><i class="icon-info-circled"></i><span>about</span></a></li>
+                <li><a href="/projects.html"><i class="icon-wrench"></i><span>projects</span></a></li>
+                <li><a href="https://github.com/jnrbsn"><i class="icon-github-circled"></i><span>github</span></a></li>
+                <li><a href="https://twitter.com/jonathanrobson"><i class="icon-twitter"></i><span>twitter</span></a></li>
+                <li><a href="https://www.linkedin.com/in/jnrbsn"><i class="icon-linkedin-squared"></i><span>linkedin</span></a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            {{ content }}
+        </div>
+
+        <footer>
+            <p><i class="icon-cc"></i>&nbsp;2009&ndash;{{ site.time | date: '%Y' }}&nbsp;&nbsp;Jonathan&nbsp;Robson</p>
+            <p>
+                <a class="creative-commons" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                    <i class="icon-cc-by"></i>
+                    <i class="icon-cc-nc"></i>
+                    <i class="icon-cc-sa"></i>
+                </a>
+            </p>
+        </footer>
+
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="/vendor/autolinker/Autolinker.min.js?rev={{ site.github.build_revision }}"></script>
+    <script src="/assets/js/main.js?rev={{ site.github.build_revision }}"></script>
+
+</body>
+</html>
 
       <section>
         {{ content }}
