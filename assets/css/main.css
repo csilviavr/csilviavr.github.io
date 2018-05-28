@@ -188,22 +188,22 @@ h1 > a:hover > .dot-head {
 
 .photo {
     background: url("/assets/img/Silvia.jpg") no-repeat;
-    background-size: 180px 180px;
+    background-size: 200px 200px;
     display: inline-block;
-    height: 180px;
+    height: 200px;
     margin: 0 5px -2px;
     overflow: hidden;
     text-indent: -100px;
-    width: 180px;
+    width: 200px;
     -webkit-transition: transform .5s;
     -moz-transition: transform .5s;
     transition: transform .5s;
 }
 
 .bio {
-  background-size: 400px 600px;
+  background-size: 400px 750px;
   display: inline-block; 
-  height: 650px; 
+  height: 750px; 
   width: 400px;
 }
 
