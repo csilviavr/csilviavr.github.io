@@ -188,13 +188,13 @@ h1 > a:hover > .dot-head {
 
 .photo {
     background: url("/assets/img/Silvia.jpg") no-repeat;
-    background-size: 256px 256px;
+    background-size: 128px 128px;
     display: inline-block;
-    height: 256px;
+    height: 128px;
     margin: 0 5px -2px;
     overflow: hidden;
     text-indent: -100px;
-    width: 256px;
+    width: 128px;
     -webkit-transition: transform .5s;
     -moz-transition: transform .5s;
     transition: transform .5s;
@@ -202,7 +202,7 @@ h1 > a:hover > .dot-head {
 
 .shadowbox {
   display: inline-block; 
-  width: 15em;
+  width: 256px;
   border: 1px solid #333;
   box-shadow: 8px 8px 5px #444;
   padding: 8px 12px;
