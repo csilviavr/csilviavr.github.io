@@ -201,6 +201,7 @@ h1 > a:hover > .dot-head {
 }
 
 .shadowbox {
+  display: inline-block; 
   width: 15em;
   border: 1px solid #333;
   box-shadow: 8px 8px 5px #444;
