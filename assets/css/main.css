@@ -188,27 +188,23 @@ h1 > a:hover > .dot-head {
 
 .photo {
     background: url("/assets/img/Silvia.jpg") no-repeat;
-    background-size: 128px 128px;
+    background-size: 160px 160px;
     display: inline-block;
-    height: 128px;
+    height: 160px;
     margin: 0 5px -2px;
     overflow: hidden;
     text-indent: -100px;
-    width: 128px;
+    width: 160px;
     -webkit-transition: transform .5s;
     -moz-transition: transform .5s;
     transition: transform .5s;
 }
 
 .bio {
-  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc); 
-  background-size: 400px 650px;
+  background-size: 400px 600px;
   display: inline-block; 
   height: 650px; 
   width: 400px;
-  border: 1px solid #333;
-  box-shadow: 8px 8px 5px #444;
-  padding: 8px 12px;
 }
 
 .social {
