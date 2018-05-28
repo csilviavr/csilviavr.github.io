@@ -202,10 +202,10 @@ h1 > a:hover > .dot-head {
 
 .bio {
   background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc); 
-  background-size: 512px 1024px;
+  background-size: 400px 650px;
   display: inline-block; 
-  height: 1024px; 
-  width: 512px;
+  height: 650px; 
+  width: 400px;
   border: 1px solid #333;
   box-shadow: 8px 8px 5px #444;
   padding: 8px 12px;
