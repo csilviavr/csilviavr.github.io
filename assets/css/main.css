@@ -186,15 +186,15 @@ h1 > a:hover > .dot-head {
     margin-bottom: 0;
 }
 
-.gravatar {
+.photo {
     background: url("/assets/img/Silvia.jpg") no-repeat;
     background-size: 32px 32px;
     display: inline-block;
-    height: 32px;
+    height: 64px;
     margin: 0 5px -2px;
     overflow: hidden;
     text-indent: -100px;
-    width: 32px;
+    width: 64px;
     -webkit-transition: transform .5s;
     -moz-transition: transform .5s;
     transition: transform .5s;
