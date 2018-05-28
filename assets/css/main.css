@@ -201,10 +201,10 @@ h1 > a:hover > .dot-head {
 }
 
 .bio {
-  background-size: 400px 750px;
+  background-size: 600px 750px;
   display: inline-block; 
   height: 750px; 
-  width: 400px;
+  width: 600px;
 }
 
 .social {
