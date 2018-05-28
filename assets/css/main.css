@@ -72,7 +72,7 @@ dd {
 
 .container {
     margin: 0 auto 50px;
-    hight: 600px;
+    hight: 500px;
     width: 1000px;
 }
 
@@ -202,11 +202,11 @@ h1 > a:hover > .dot-head {
 }
 
 .bio {
-  background-size: 550px 650px;
+  background-size: 500px 650px;
   display: inline-block; 
   height: 650px; 
-  width: 550px;
-  margin: 1px;
+  width: 500px;
+  margin: 5px;
 }
 
 .social {
