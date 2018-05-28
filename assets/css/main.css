@@ -189,12 +189,12 @@ h1 > a:hover > .dot-head {
 
 .photo {
     background: url("/assets/img/Silvia.jpg") no-repeat;
-    background-size: 200px 200px;
+    background-size: 220px 220px;
     display: inline-block;
-    height: 200px;
+    height: 220px;
     overflow: hidden;
     text-indent: -100px;
-    width: 200px;
+    width: 220px;
     margin: 5px;
     padding: 40px;
     -webkit-transition: transform .5s;
