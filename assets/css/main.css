@@ -196,16 +196,16 @@ h1 > a:hover > .dot-head {
     text-indent: -100px;
     width: 200px;
     margin: 5px;
-    padding: 20px;
+    padding: 40px;
     -webkit-transition: transform .5s;
     -moz-transition: transform .5s;
     transition: transform .5s;
 }
 
 .bio {
-  background-size: 450px 650px;
+  background-size: 450px 550px;
   display: inline-block; 
-  height: 650px; 
+  height: 550px; 
   width: 450px;
   margin: 5px;
   padding: 5px; 
