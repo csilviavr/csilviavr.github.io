@@ -72,7 +72,7 @@ dd {
 
 .container {
     margin: 0 auto 50px;
-    hight: 500px;
+    hight: 400px;
     width: 1000px;
 }
 
@@ -195,7 +195,8 @@ h1 > a:hover > .dot-head {
     overflow: hidden;
     text-indent: -100px;
     width: 200px;
-    margin: 3px;
+    margin: 5px;
+    padding: 5px;
     -webkit-transition: transform .5s;
     -moz-transition: transform .5s;
     transition: transform .5s;
@@ -207,6 +208,7 @@ h1 > a:hover > .dot-head {
   height: 650px; 
   width: 500px;
   margin: 5px;
+  padding: 5px; 
 }
 
 .social {
