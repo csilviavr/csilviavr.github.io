@@ -190,11 +190,11 @@ h1 > a:hover > .dot-head {
     background: url("/assets/img/Silvia.jpg") no-repeat;
     background-size: 32px 32px;
     display: inline-block;
-    height: 64px;
+    height: 32px;
     margin: 0 5px -2px;
     overflow: hidden;
     text-indent: -100px;
-    width: 64px;
+    width: 32px;
     -webkit-transition: transform .5s;
     -moz-transition: transform .5s;
     transition: transform .5s;
@@ -231,36 +231,6 @@ h1 > a:hover > .dot-head {
     margin-right: .3em;
 }
 
-#projects-loading {
-    color: #999;
-    font-size: 50px;
-    left: 50%;
-    line-height: 50px;
-    margin: 25px 0 0 -30px;
-    position: absolute;
-    text-align: center;
-    width: 60px;
-}
-
-#projects {
-    display: none;
-    opacity: 0;
-}
-
-#projects dt > .meta {
-    color: #999;
-    font-size: 14px;
-    margin-left: 8px;
-}
-
-#projects dd {
-    margin-bottom: 15px;
-}
-
-#projects dd:last-child {
-    margin-bottom: 0;
-}
-
 .not-found {
     text-align: center;
 }
@@ -294,14 +264,6 @@ footer > p {
 
 footer > p:last-child {
     margin-bottom: 0;
-}
-
-a.creative-commons,
-a.creative-commons:visited,
-a.creative-commons:hover {
-    color: #999;
-    font-size: 25px;
-    text-decoration: none;
 }
 
 /**
