@@ -213,14 +213,14 @@ h1 > a:hover > .dot-head {
 
 .BTSMBook {
     display: inline-block; 
+    height: 60px;
     width: 200px;
-    height: 80px;
 }
 
 .BTSMBookTxt {
-    display: inline-block; 
-    width: 400px;
-    height: 80px;
+    display: inline-block;
+    height: 60px;   
+    width: 500px;
     padding: 30px;
 }
 
