@@ -213,18 +213,16 @@ h1 > a:hover > .dot-head {
 
 .BTSMBook {
     display: inline-block; 
-    width: 10px;
+    width: 200px;
     float: left;
-    height: 30px;
+    height: 200px;
 }
 
 .BTSMBookTxt {
     display: inline-block; 
-    width: 20px;
+    width: 200px;
     float: left;
-    height: 30px;
-    background-color: green;
-    color: white;
+    height: 200px;
 }
 
 .social {
