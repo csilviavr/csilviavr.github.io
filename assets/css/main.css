@@ -221,6 +221,7 @@ h1 > a:hover > .dot-head {
     display: inline-block; 
     width: 400px;
     height: 100px;
+    padding: 30px;
 }
 
 .social {
