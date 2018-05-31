@@ -212,12 +212,14 @@ h1 > a:hover > .dot-head {
 }
 
 BTSMBook {
+    display: inline-block; 
     width: 10px;
     float: left;
     height: 30px;
-    background-color: blue;
 }
+
 BTSMBookTxt {
+    display: inline-block; 
     width: 20px;
     float: left;
     height: 30px;
