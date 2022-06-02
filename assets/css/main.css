@@ -248,6 +248,10 @@ h1 > a:hover > .dot-head {
     -webkit-font-smoothing: antialiased;
 }
 
+.social .icon-google-scholar:before {
+    color: #333;
+}
+
 .social .icon-github-circled:before {
     color: #333;
 }
